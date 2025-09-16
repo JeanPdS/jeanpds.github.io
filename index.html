@@ -2,7 +2,11 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>SQUAD SONIC - Página de teste - Embed IRIS</title>
+  <title>SQUAD SONIC</title>
+
+  <!-- Content Security Policy para permitir o carregamento do Engagement Messenger -->
+   <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' https://dev272247.service-now.com;">
+
   <style>
     body {
       margin: 0;
@@ -35,7 +39,7 @@
   </style>
 </head>
 <body>
-  <h1>SQUAD SONIC - Embed IRIS 5.0</h1>
+  <h1>SQUAD SONIC - Embed IRIS com CSP</h1>
   <h2>Página de teste para embed do Virtual Agent (IRIS) em portal externo</h2>
 
   <script src="https://dev272247.service-now.com/scripts/sn_csm_ec.js?v=5.6"></script>
